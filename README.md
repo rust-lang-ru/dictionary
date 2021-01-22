@@ -23,7 +23,7 @@
 | coroutine | корутина |
 | crash | аварийно завершиться | | |
 | crate | пакет | | |
-| closure | замыкание |  | https://github.com/rust-lang-ru/dictionary/issues/26 |
+| closure | замыкание |  | [#26](https://github.com/rust-lang-ru/dictionary/issues/26) |
 | debuging | отладка, отлаживать | | |
 | destructure | деструктуризация |
 | enum | перечисление | | |
