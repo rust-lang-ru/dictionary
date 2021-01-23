@@ -50,6 +50,7 @@
 | multithreading | многопоточность | | |
 | native libraries | нативные библиотеки (имеются ввиду родные системные библиотеки, например, libc) | | |
 | NLL (Non-Lexical Lifetime) | нелексическое время жизни | | |
+| Named Struct | именованная структура | |[#9](https://github.com/rust-lang-ru/dictionary/issues/9) |
 | operator | операция |
 | ownership | владение, владение ресурсом, право владения | | |
 | pattern (отдельно стоящее, как "pattern" в левой части "let") | образец | | |
