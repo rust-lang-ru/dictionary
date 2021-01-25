@@ -22,7 +22,8 @@
 | core team | основная группа | | |
 | coroutine | корутина |
 | crash | аварийно завершиться | | |
-| crate | пакет | | |
+| crate | крейт | это единица компиляции, концепция уровня rustc (компилятора) | [#5](https://github.com/rust-lang-ru/dictionary/issues/5) |
+| crate | пакет | это нечто, описываемое Cargo.toml и состоящее из 0, 1 или множества крейтов и/или рекурсивно вложенных пакетов, концепция уровня cargo (пакетного менеджера) | [#5](https://github.com/rust-lang-ru/dictionary/issues/5) |
 | closure | замыкание |  | [#26](https://github.com/rust-lang-ru/dictionary/issues/26) |
 | debuging | отладка, отлаживать | | |
 | destructure | деструктуризация |
