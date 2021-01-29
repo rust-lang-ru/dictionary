@@ -26,7 +26,7 @@
 | closure | замыкание |  | [#26](https://github.com/rust-lang-ru/dictionary/issues/26) |
 | debuging | отладка, отлаживать | | |
 | destructure | деструктуризация | | |
-| dereferencing | разыменование ссылки | | [#10](https://github.com/rust-lang-ru/dictionary/issues/10) |
+| dereferencing | разыменование | | [#10](https://github.com/rust-lang-ru/dictionary/issues/10) |
 | enum | перечисление | | |
 | expand | развернуть | | |
 | expansion | развёртывание | | |
