@@ -18,6 +18,7 @@
 | capture | метапеременная, захват метапеременных (в макросах) | | |
 | compilation | компиляция |
 | concept | понятие | | |
+| control flow | поток управления | | [#4](https://github.com/rust-lang-ru/dictionary/issues/4) |
 | concurrency | конкурентность | | |
 | core team | основная группа | | |
 | coroutine | корутина |
