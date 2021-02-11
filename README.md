@@ -69,6 +69,7 @@
 | slice | срез | | |
 | statement | оператор | | |
 | thread | поток | | |
+| type layout | схема размещения типа | в памяти | [#33](https://github.com/rust-lang-ru/dictionary/issues/33) |
 | token | токен | | |
 | tokenize | разбить на токены | | |
 | token tree | дерево токенов | | |
