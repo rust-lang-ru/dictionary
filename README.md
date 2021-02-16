@@ -75,6 +75,7 @@
 | trait | типаж |
 | trait object | типаж-объект | | |
 | tuple struct | кортежная структура | | |
+| tuple struct | безымянная структура | Структура называется «безымянной», потому что вам нужно указать только типы, а не имена полей | [#8](https://github.com/rust-lang-ru/dictionary/issues/8) |
 | lifetime variance | вариативность времени жизни | | [#2](https://github.com/rust-lang-ru/dictionary/issues/2) |
 | variable binding | имя (связанное имя) / значение (связанное значение) в зависимости от контекста. | | |
 | unit type | единичный тип | | |
