@@ -27,7 +27,7 @@
 | crate | пакет | это нечто, описываемое Cargo.toml и состоящее из 0, 1 или множества крейтов и/или рекурсивно вложенных пакетов, концепция уровня cargo (пакетного менеджера) | [#5](https://github.com/rust-lang-ru/dictionary/issues/5) |
 | closure | замыкание |  | [#26](https://github.com/rust-lang-ru/dictionary/issues/26) |
 | debuging | отладка, отлаживать | | |
-| destructure | деструктуризация | | |
+| destructure/destructuring | деструктуризация | | [#13](https://github.com/rust-lang-ru/dictionary/issues/13) |
 | dereferencing | разыменование | | [#10](https://github.com/rust-lang-ru/dictionary/issues/10) |
 | enum | перечисление | | |
 | expand | развернуть | | |
