@@ -89,12 +89,11 @@
 | 
 | 
 
-| crate
+.2+| crate
 | крейт
 | это единица компиляции, концепция уровня rustc (компилятора) 
 | https://github.com/rust-lang-ru/dictionary/issues/5[#5] 
 
-| crate
 | пакет
 | это нечто, описываемое Cargo.toml и состоящее из 0, 1 или множества крейтов и/или рекурсивно вложенных пакетов, концепция уровня cargo (пакетного менеджера) 
 | https://github.com/rust-lang-ru/dictionary/issues/5[#5] 
