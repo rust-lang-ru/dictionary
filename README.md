@@ -68,6 +68,7 @@
 | rendering | отрисовка | | |
 | inclusive range | замкнутый диапазон | | |
 | exclusive range | полуоткрытый диапазон | | |
+| scope | область видимости | | [#17](https://github.com/rust-lang-ru/dictionary/issues/17) |
 | sharing | обмениваться |
 | shadowing | затенение | | |
 | slice | срез | | |
