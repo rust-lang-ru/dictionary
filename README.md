@@ -85,4 +85,5 @@
 | lifetime variance | вариативность времени жизни | | [#2](https://github.com/rust-lang-ru/dictionary/issues/2) |
 | variable binding | имя (связанное имя) / значение (связанное значение) в зависимости от контекста. | | |
 | unit type | единичный тип | | |
+| unit struct | единичная структура | структура,в которой нет полей | [#7](https://github.com/rust-lang-ru/dictionary/issues/7) |
 | Question Mark Operator | Оператор ? | когда функция возвращает тип Result или Option | [#16](https://github.com/rust-lang-ru/dictionary/issues/16) |
