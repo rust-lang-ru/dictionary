@@ -29,7 +29,7 @@
 | debuging | отладка, отлаживать | | |
 | destructure/destructuring | деструктуризация | | [#13](https://github.com/rust-lang-ru/dictionary/issues/13) |
 | dereferencing | разыменование | | [#10](https://github.com/rust-lang-ru/dictionary/issues/10) |
-| derive | вывод | добавление автоматического вывода трейтов для типа (`#[derive(Debug)]`) | [#20](https://github.com/rust-lang-ru/dictionary/issues/20) |
+| derive | вывод | автоматическая реализации поведения для типа (`#[derive(Debug)]`) | [#20](https://github.com/rust-lang-ru/dictionary/issues/20) |
 | enum | перечисление | | |
 | expand | развернуть | | |
 | expansion | развёртывание | | |
@@ -80,4 +80,3 @@
 | variable binding | имя (связанное имя) / значение (связанное значение) в зависимости от контекста. | | |
 | unit type | единичный тип | | |
 | Question Mark Operator | Оператор ? | когда функция возвращает тип Result или Option | [#16](https://github.com/rust-lang-ru/dictionary/issues/16) |
-
