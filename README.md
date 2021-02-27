@@ -56,6 +56,7 @@
 | Named Struct | именованная структура | |[#9](https://github.com/rust-lang-ru/dictionary/issues/9) |
 | operator | операция |
 | ownership | владение, владение ресурсом, право владения | | |
+| panic | паника/паниковать | В контексте работы макроса `panic!()` | [#18](https://github.com/rust-lang-ru/dictionary/issues/18) |
 | pattern (отдельно стоящее, как "pattern" в левой части "let") | образец | | |
 | pattern matching | сопоставление с образцом | | |
 | parallelism | параллелизм |
