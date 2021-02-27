@@ -17,6 +17,7 @@
 | bug | ошибка, баг | | |
 | capacity | ёмкость (в отношении векторов) | | |
 | capture | метапеременная, захват метапеременных (в макросах) | | |
+| chaining methods | связывание методов в цепочку/цепочка методов |  | [#23](https://github.com/rust-lang-ru/dictionary/issues/23) |
 | compilation | компиляция |
 | concept | понятие | | |
 | control flow | поток управления | | [#4](https://github.com/rust-lang-ru/dictionary/issues/4) |
