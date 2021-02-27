@@ -31,7 +31,7 @@
 | debuging | отладка, отлаживать | | |
 | destructure/destructuring | деструктуризация | | [#13](https://github.com/rust-lang-ru/dictionary/issues/13) |
 | dereferencing | разыменование | | [#10](https://github.com/rust-lang-ru/dictionary/issues/10) |
-| dot operator | оператор точка | в коде символ "." | [#14](https://github.com/rust-lang-ru/dictionary/issues/14) |
+| dot operator | оператор точка |  ["." в reference](https://doc.rust-lang.org/reference/introduction.html?search=dot) | [#14](https://github.com/rust-lang-ru/dictionary/issues/14) |
 | derive | вывод | автоматическая реализации поведения для типа (`#[derive(Debug)]`) | [#20](https://github.com/rust-lang-ru/dictionary/issues/20) |
 | enum | перечисление | | |
 | expand | развернуть | | |
