@@ -9,6 +9,7 @@
 |----|----|----|----|
 | aliasing | задание псевдонимов; в отношении указателей/ссылок - совпадение указателя/ссылки | | |
 | arm | ветка |
+| associated type | ассоциированный тип | | [#24](https://github.com/rust-lang-ru/dictionary/issues/24) |
 | borrowing | заимствование | | |
 | borrow checker | анализатор заимствований | | |
 | box | упаковка |
@@ -16,6 +17,7 @@
 | bug | ошибка, баг | | |
 | capacity | ёмкость (в отношении векторов) | | |
 | capture | метапеременная, захват метапеременных (в макросах) | | |
+| chaining methods | связывание методов в цепочку/цепочка методов |  | [#23](https://github.com/rust-lang-ru/dictionary/issues/23) |
 | compilation | компиляция |
 | concept | понятие | | |
 | control flow | поток управления | | [#4](https://github.com/rust-lang-ru/dictionary/issues/4) |
@@ -27,8 +29,9 @@
 | crate | пакет | это нечто, описываемое Cargo.toml и состоящее из 0, 1 или множества крейтов и/или рекурсивно вложенных пакетов, концепция уровня cargo (пакетного менеджера) | [#5](https://github.com/rust-lang-ru/dictionary/issues/5) |
 | closure | замыкание |  | [#26](https://github.com/rust-lang-ru/dictionary/issues/26) |
 | debuging | отладка, отлаживать | | |
-| destructure | деструктуризация | | |
+| destructure/destructuring | деструктуризация | | [#13](https://github.com/rust-lang-ru/dictionary/issues/13) |
 | dereferencing | разыменование | | [#10](https://github.com/rust-lang-ru/dictionary/issues/10) |
+| derive | вывод | автоматическая реализации поведения для типа (`#[derive(Debug)]`) | [#20](https://github.com/rust-lang-ru/dictionary/issues/20) |
 | enum | перечисление | | |
 | expand | развернуть | | |
 | expansion | развёртывание | | |
@@ -56,6 +59,7 @@
 | Named Struct | именованная структура | |[#9](https://github.com/rust-lang-ru/dictionary/issues/9) |
 | operator | операция |
 | ownership | владение, владение ресурсом, право владения | | |
+| panic | паника/паниковать | В контексте работы макроса `panic!()`. Не восстановимая ошибка программы | [#18](https://github.com/rust-lang-ru/dictionary/issues/18) |
 | pattern (отдельно стоящее, как "pattern" в левой части "let") | образец | | |
 | pattern matching | сопоставление с образцом | | |
 | parallelism | параллелизм |
@@ -64,6 +68,7 @@
 | rendering | отрисовка | | |
 | inclusive range | замкнутый диапазон | | |
 | exclusive range | полуоткрытый диапазон | | |
+| scope | область видимости | | [#17](https://github.com/rust-lang-ru/dictionary/issues/17) |
 | sharing | обмениваться |
 | shadowing | затенение | | |
 | slice | срез | | |
@@ -75,7 +80,9 @@
 | trait | типаж |
 | trait object | типаж-объект | | |
 | tuple struct | кортежная структура | | |
+| tuple struct | безымянная структура | Структура называется «безымянной», потому что вам нужно указать только типы, а не имена полей | [#8](https://github.com/rust-lang-ru/dictionary/issues/8) |
 | lifetime variance | вариативность времени жизни | | [#2](https://github.com/rust-lang-ru/dictionary/issues/2) |
 | variable binding | имя (связанное имя) / значение (связанное значение) в зависимости от контекста. | | |
 | unit type | единичный тип | | |
 | unit struct | единичная структура | структура,в которой нет полей | [#7](https://github.com/rust-lang-ru/dictionary/issues/7) |
+| Question Mark Operator | Оператор ? | когда функция возвращает тип Result или Option | [#16](https://github.com/rust-lang-ru/dictionary/issues/16) |
