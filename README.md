@@ -58,6 +58,7 @@
 | Named Struct | именованная структура | |[#9](https://github.com/rust-lang-ru/dictionary/issues/9) |
 | operator | операция |
 | ownership | владение, владение ресурсом, право владения | | |
+| panic | паника/паниковать | В контексте работы макроса `panic!()`. Не восстановимая ошибка программы | [#18](https://github.com/rust-lang-ru/dictionary/issues/18) |
 | pattern (отдельно стоящее, как "pattern" в левой части "let") | образец | | |
 | pattern matching | сопоставление с образцом | | |
 | parallelism | параллелизм |
@@ -81,4 +82,3 @@
 | variable binding | имя (связанное имя) / значение (связанное значение) в зависимости от контекста. | | |
 | unit type | единичный тип | | |
 | Question Mark Operator | Оператор ? | когда функция возвращает тип Result или Option | [#16](https://github.com/rust-lang-ru/dictionary/issues/16) |
-
