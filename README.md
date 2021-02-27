@@ -29,6 +29,7 @@
 | debuging | отладка, отлаживать | | |
 | destructure/destructuring | деструктуризация | | [#13](https://github.com/rust-lang-ru/dictionary/issues/13) |
 | dereferencing | разыменование | | [#10](https://github.com/rust-lang-ru/dictionary/issues/10) |
+| derive | вывод | добавление автоматического вывода трейтов для типа (`#[derive(Debug)]`) | [#20](https://github.com/rust-lang-ru/dictionary/issues/20) |
 | enum | перечисление | | |
 | expand | развернуть | | |
 | expansion | развёртывание | | |
