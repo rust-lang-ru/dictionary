@@ -5,19 +5,27 @@
 
 Для части переводов, для которых нет ссылки на обсуждение, историю добавления можно попробовать достать из https://github.com/rust-lang-ru/rustycrate.ru/blame/master/dictionary.md[rustycrate.ru/dictionary.md]
 
-
 |===
 | Термин | Перевод | Контекст | Ссылка на обсуждение 
 
-| aliasing
-| задание псевдонимов; в отношении указателей/ссылок - совпадение указателя/ссылки
+.2+| aliasing
+| задание псевдонимов
 | 
 | 
+
+| совпадение указателя/ссылки
+| в отношении указателей/ссылок
+|
 
 | arm
 | ветка
 | 
 | 
+
+| associated type
+| ассоциированный тип
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/24[#24] 
 
 | borrowing
 | заимствование
@@ -45,14 +53,19 @@
 | 
 
 | capacity
-| ёмкость (в отношении векторов)
-| 
+| ёмкость
+| в отношении векторов
 | 
 
 | capture
-| метапеременная, захват метапеременных (в макросах)
+| метапеременная, захват метапеременных
+| в макросах
 | 
-| 
+
+| chaining methods
+| связывание методов в цепочку/цепочка методов
+|  
+| https://github.com/rust-lang-ru/dictionary/issues/23[#23] 
 
 | compilation
 | компиляция
@@ -118,8 +131,23 @@
 | 
 | https://github.com/rust-lang-ru/dictionary/issues/10[#10] 
 
+| dot operator
+| оператор точка
+| https://doc.rust-lang.org/reference/introduction.html?search=dot["." в reference]
+| https://github.com/rust-lang-ru/dictionary/issues/14[#14] 
+
+| derive
+| вывод
+| автоматическая реализации поведения для типа (`+#[derive(Debug)]+`) 
+| https://github.com/rust-lang-ru/dictionary/issues/20[#20] 
+
 | enum
 | перечисление
+| 
+| 
+
+| exclusive range
+| полуоткрытый диапазон
 | 
 | 
 
@@ -168,14 +196,19 @@
 | 
 | 
 
+| inclusive range
+| замкнутый диапазон
+| 
+| 
+
 | irrefutable pattern
 | безусловный образец
 | 
 | 
 
 | length
-| длина (в отношении векторов)
-| 
+| длина
+| в отношении векторов
 | 
 
 | lifetime
@@ -184,8 +217,8 @@
 | 
 
 | lint
-| статический анализ / статическая проверка (в зависимости от контекста)
-| 
+| статический анализ / статическая проверка
+| в зависимости от контекста
 | 
 
 | literal
@@ -229,8 +262,8 @@
 | 
 
 | native libraries
-| нативные библиотеки (имеются ввиду родные системные библиотеки, например, libc)
-| 
+| нативные библиотеки
+| имеются ввиду родные системные библиотеки, например, libc
 | 
 
 | NLL (Non-Lexical Lifetime)
@@ -243,20 +276,25 @@
 | 
 | https://github.com/rust-lang-ru/dictionary/issues/9[#9]
 
-| operator 
-| операция 
-|
-|
+| operator
+| операция
+| 
+| 
 
 | ownership
 | владение, владение ресурсом, право владения
 | 
 | 
 
-| pattern (отдельно стоящее, как "pattern" в левой части "let") 
-| образец 
+| panic
+| паника/паниковать
+| В контексте работы макроса `+panic!()+`. Не восстановимая ошибка программы 
+| https://github.com/rust-lang-ru/dictionary/issues/18[#18] 
+
+| pattern (отдельно стоящее, как "pattern" в левой части "let")
+| образец
 | 
-|
+| 
 
 | pattern matching
 | сопоставление с образцом
@@ -267,6 +305,11 @@
 | параллелизм
 | 
 | 
+
+| Question Mark Operator
+| Оператор ?
+| когда функция возвращает тип Result или Option 
+| https://github.com/rust-lang-ru/dictionary/issues/16[#16] 
 
 | parse
 | проводить разбор
@@ -283,15 +326,10 @@
 | 
 | 
 
-| inclusive range
-| замкнутый диапазон
+| scope
+| область видимости
 | 
-| 
-
-| exclusive range
-| полуоткрытый диапазон
-| 
-| 
+| https://github.com/rust-lang-ru/dictionary/issues/17[#17] 
 
 | sharing
 | обмениваться
@@ -318,6 +356,11 @@
 | 
 | 
 
+| type layout
+| схема размещения типа
+| в памяти 
+| https://github.com/rust-lang-ru/dictionary/issues/33[#33] 
+
 | token
 | токен
 | 
@@ -343,10 +386,14 @@
 | 
 | 
 
-| tuple struct
+.2+| tuple struct
 | кортежная структура
 | 
 | 
+
+| безымянная структура
+| Структура называется «безымянной», потому что вам нужно указать только типы, а не имена полей 
+| https://github.com/rust-lang-ru/dictionary/issues/8[#8] 
 
 | lifetime variance
 | вариативность времени жизни
@@ -362,5 +409,10 @@
 | единичный тип
 | 
 | 
+
+| unit struct
+| единичная структура
+| структура,в которой нет полей 
+| https://github.com/rust-lang-ru/dictionary/issues/7[#7] 
 
 |===
