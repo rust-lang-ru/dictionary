@@ -1,0 +1,418 @@
+Дополнения приветствуются. Для добавления перевода нового термина,
+создайте https://github.com/rust-lang-ru/dictionary/issues/new[задачу].
+В ней будет происходить обсуждение.
+Вопросы можно задать в https://t.me/rustlang_ru_translations[чате].
+
+Для части переводов, для которых нет ссылки на обсуждение, историю добавления можно попробовать достать из https://github.com/rust-lang-ru/rustycrate.ru/blame/master/dictionary.md[rustycrate.ru/dictionary.md]
+
+|===
+| Термин | Перевод | Контекст | Ссылка на обсуждение 
+
+.2+| aliasing
+| задание псевдонимов
+| 
+| 
+
+| совпадение указателя/ссылки
+| в отношении указателей/ссылок
+|
+
+| arm
+| ветка
+| 
+| 
+
+| associated type
+| ассоциированный тип
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/24[#24] 
+
+| borrowing
+| заимствование
+| 
+| 
+
+| borrow checker
+| анализатор заимствований
+| 
+| 
+
+| box
+| упаковка
+| 
+| 
+
+| build
+| сборка
+| 
+| 
+
+| bug
+| ошибка, баг
+| 
+| 
+
+| capacity
+| ёмкость
+| в отношении векторов
+| 
+
+| capture
+| метапеременная, захват метапеременных
+| в макросах
+| 
+
+| chaining methods
+| связывание методов в цепочку/цепочка методов
+|  
+| https://github.com/rust-lang-ru/dictionary/issues/23[#23] 
+
+| compilation
+| компиляция
+| 
+| 
+
+| concept
+| понятие
+| 
+| 
+
+| control flow
+| поток управления
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/4[#4] 
+
+| concurrency
+| конкурентность
+| 
+| 
+
+| core team
+| основная группа
+| 
+| 
+
+| coroutine
+| корутина
+| 
+| 
+
+| crash
+| аварийно завершиться
+| 
+| 
+
+.2+| crate
+| крейт
+| это единица компиляции, концепция уровня rustc (компилятора) 
+| https://github.com/rust-lang-ru/dictionary/issues/5[#5] 
+
+| пакет
+| это нечто, описываемое Cargo.toml и состоящее из 0, 1 или множества крейтов и/или рекурсивно вложенных пакетов, концепция уровня cargo (пакетного менеджера) 
+| https://github.com/rust-lang-ru/dictionary/issues/5[#5] 
+
+| closure
+| замыкание
+|  
+| https://github.com/rust-lang-ru/dictionary/issues/26[#26] 
+
+| debuging
+| отладка, отлаживать
+| 
+| 
+
+| destructure/destructuring
+| деструктуризация
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/13[#13] 
+
+| dereferencing
+| разыменование
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/10[#10] 
+
+| dot operator
+| оператор точка
+| https://doc.rust-lang.org/reference/introduction.html?search=dot["." в reference]
+| https://github.com/rust-lang-ru/dictionary/issues/14[#14] 
+
+| derive
+| вывод
+| автоматическая реализации поведения для типа (`+#[derive(Debug)]+`) 
+| https://github.com/rust-lang-ru/dictionary/issues/20[#20] 
+
+| enum
+| перечисление
+| 
+| 
+
+| exclusive range
+| полуоткрытый диапазон
+| 
+| 
+
+| expand
+| развернуть
+| 
+| 
+
+| expansion
+| развёртывание
+| 
+| 
+
+| expression
+| выражение
+| 
+| 
+
+| feature
+| возможность
+| 
+| 
+
+| future
+| футура
+| 
+| 
+
+| generic
+| обобщённый
+| 
+| 
+
+| goroutine
+| горутина
+| 
+| 
+
+| handle
+| дескриптор
+| 
+| 
+
+| immutable
+| неизменяемый
+| 
+| 
+
+| inclusive range
+| замкнутый диапазон
+| 
+| 
+
+| irrefutable pattern
+| безусловный образец
+| 
+| 
+
+| length
+| длина
+| в отношении векторов
+| 
+
+| lifetime
+| время жизни
+| 
+| 
+
+| lint
+| статический анализ / статическая проверка
+| в зависимости от контекста
+| 
+
+| literal
+| литерал, литеральный
+| 
+| 
+
+| macro
+| макрос (макроопределение)
+| 
+| 
+
+| match
+| сопоставление с образцом (гл.), сопоставление (сущ.)
+| 
+| 
+
+| matcher 
+| 
+| 
+|
+
+| matching
+| сопоставление
+| 
+| 
+
+| module
+| модуль
+| 
+| 
+
+| mutable
+| изменяемый
+| 
+| 
+
+| multithreading
+| многопоточность
+| 
+| 
+
+| native libraries
+| нативные библиотеки
+| имеются ввиду родные системные библиотеки, например, libc
+| 
+
+| NLL (Non-Lexical Lifetime)
+| нелексическое время жизни
+| 
+| 
+
+| Named Struct 
+| именованная структура 
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/9[#9]
+
+| operator
+| операция
+| 
+| 
+
+| ownership
+| владение, владение ресурсом, право владения
+| 
+| 
+
+| panic
+| паника/паниковать
+| В контексте работы макроса `+panic!()+`. Не восстановимая ошибка программы 
+| https://github.com/rust-lang-ru/dictionary/issues/18[#18] 
+
+| pattern (отдельно стоящее, как "pattern" в левой части "let")
+| образец
+| 
+| 
+
+| pattern matching
+| сопоставление с образцом
+| 
+| 
+
+| parallelism
+| параллелизм
+| 
+| 
+
+| Question Mark Operator
+| Оператор ?
+| когда функция возвращает тип Result или Option 
+| https://github.com/rust-lang-ru/dictionary/issues/16[#16] 
+
+| parse
+| проводить разбор
+| 
+| 
+
+| range
+| диапазон
+| 
+| 
+
+| rendering
+| отрисовка
+| 
+| 
+
+| scope
+| область видимости
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/17[#17] 
+
+| sharing
+| обмениваться
+| 
+| 
+
+| shadowing
+| затенение
+| 
+| 
+
+| slice
+| срез
+| 
+| 
+
+| statement
+| оператор
+| 
+| 
+
+| thread
+| поток
+| 
+| 
+
+| type layout
+| схема размещения типа
+| в памяти 
+| https://github.com/rust-lang-ru/dictionary/issues/33[#33] 
+
+| token
+| токен
+| 
+| 
+
+| tokenize
+| разбить на токены
+| 
+| 
+
+| token tree
+| дерево токенов
+| 
+| 
+
+| trait
+| типаж
+| 
+| 
+
+| trait object
+| типаж-объект
+| 
+| 
+
+.2+| tuple struct
+| кортежная структура
+| 
+| 
+
+| безымянная структура
+| Структура называется «безымянной», потому что вам нужно указать только типы, а не имена полей 
+| https://github.com/rust-lang-ru/dictionary/issues/8[#8] 
+
+| lifetime variance
+| вариативность времени жизни
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/2[#2] 
+
+| variable binding
+| имя (связанное имя) / значение (связанное значение) в зависимости от контекста.
+| 
+| 
+
+| unit type
+| единичный тип
+| 
+| 
+
+| unit struct
+| единичная структура
+| структура,в которой нет полей 
+| https://github.com/rust-lang-ru/dictionary/issues/7[#7] 
+
+|===
