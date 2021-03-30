@@ -331,6 +331,11 @@
 | 
 | 
 
+| regular method
+| метод
+|
+| https://github.com/rust-lang-ru/dictionary/issues/11[#11] 
+
 | scope
 | область видимости
 | 
