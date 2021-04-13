@@ -142,7 +142,7 @@
 | https://github.com/rust-lang-ru/dictionary/issues/14[#14] 
 
 | derive
-| вывод
+| генерировать
 | автоматическая реализации поведения для типа (`+#[derive(Debug)]+`) 
 | https://github.com/rust-lang-ru/dictionary/issues/20[#20] 
 
