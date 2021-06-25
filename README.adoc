@@ -146,6 +146,11 @@
 | автоматическая реализации поведения для типа (`+#[derive(Debug)]+`) 
 | https://github.com/rust-lang-ru/dictionary/issues/20[#20] 
 
+| edition
+| редакция
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/49[#49]
+
 | enum
 | перечисление
 | 
@@ -310,6 +315,11 @@
 | параллелизм
 | 
 | 
+
+| release
+| выпуск, релиз
+|
+| https://github.com/rust-lang-ru/dictionary/issues/49[#49]
 
 | Question Mark Operator
 | Оператор ?
