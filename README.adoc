@@ -317,7 +317,7 @@
 | 
 
 | release
-| выпуск
+| выпуск, релиз
 |
 | https://github.com/rust-lang-ru/dictionary/issues/49[#49]
 
