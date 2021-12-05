@@ -386,6 +386,16 @@
 | 
 | 
 
+.2+| trait
+| типаж
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/22[#22]
+
+| трейт
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/22[#22]
+
+
 | thread
 | поток
 | 
