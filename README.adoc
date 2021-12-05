@@ -396,6 +396,11 @@
 | в памяти 
 | https://github.com/rust-lang-ru/dictionary/issues/33[#33] 
 
+| type alias
+| псевдоним типа
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/56[#56]
+
 | token
 | токен
 | 
