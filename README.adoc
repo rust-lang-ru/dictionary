@@ -356,6 +356,11 @@
 | 
 | 
 
+| RwLock
+| RwLock
+| название премитива синхронизации в стандартной библиотеке. не преводится. 
+| https://github.com/rust-lang-ru/dictionary/issues/54[#54]
+
 | scope
 | область видимости
 | 
