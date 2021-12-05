@@ -271,6 +271,11 @@
 | 
 | 
 
+| mutex
+| мьютекс
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/53[#53]
+
 | multithreading
 | многопоточность
 | 
