@@ -216,6 +216,11 @@
 | 
 | 
 
+| interior mutability
+| внутренняя изменяемость
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/51[#51]
+
 | length
 | длина
 | в отношении векторов
