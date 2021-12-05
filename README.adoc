@@ -251,6 +251,11 @@
 | 
 | 
 
+| match guard
+| охранное выражение в сопоставлении с образцом
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/6[#6]
+
 | matcher 
 | 
 | 
