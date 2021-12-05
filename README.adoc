@@ -271,6 +271,11 @@
 | 
 | 
 
+| mutability
+| изменяемость
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/52[#52]
+
 | mutex
 | мьютекс
 | 
