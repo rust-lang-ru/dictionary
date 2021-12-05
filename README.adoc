@@ -395,6 +395,10 @@
 | 
 | https://github.com/rust-lang-ru/dictionary/issues/22[#22]
 
+| trait bounds
+| ограничения типажей 
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/21[#21]
 
 | thread
 | поток
