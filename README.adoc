@@ -377,7 +377,7 @@
 | https://github.com/rust-lang-ru/dictionary/issues/54[#54]
 
 | scalar types
-| скалярные типы данных
+| скалярные/примитивные типы данных
 | 
 | 
 
