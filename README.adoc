@@ -126,6 +126,11 @@
 |  
 | https://github.com/rust-lang-ru/dictionary/issues/26[#26] 
 
+| custom
+| пользовательский
+| 
+|
+
 | debuging
 | отладка, отлаживать
 | 
