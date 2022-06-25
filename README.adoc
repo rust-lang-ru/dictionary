@@ -126,6 +126,11 @@
 |  
 | https://github.com/rust-lang-ru/dictionary/issues/26[#26] 
 
+| custom
+| пользовательский
+| 
+|
+
 | dangling pointer / dangling reference
 | висящий указатель / висящая ссылка
 |
@@ -355,6 +360,11 @@
 | выпуск, релиз
 |
 | https://github.com/rust-lang-ru/dictionary/issues/49[#49]
+
+| raw identifier
+| сырой идентификатор
+|
+|
 
 | Question Mark Operator
 | Оператор ?
