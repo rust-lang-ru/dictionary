@@ -127,7 +127,7 @@
 | https://github.com/rust-lang-ru/dictionary/issues/26[#26] 
 
 | dangling pointer / dangling reference
-| висячий указатель / висячая ссылка
+| висящий указатель / висящая ссылка
 |
 |
 
