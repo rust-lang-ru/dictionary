@@ -251,6 +251,11 @@
 | 
 | 
 
+| lifetime variance
+| вариативность времени жизни
+| 
+| https://github.com/rust-lang-ru/dictionary/issues/2[#2] 
+
 | lint
 | статический анализ / статическая проверка
 | в зависимости от контекста
@@ -361,18 +366,13 @@
 | 
 | 
 
+| parse
+| проводить разбор
+| 
+| 
+
 | placeholder
 | заполнитель
-|
-|
-
-| release
-| выпуск, релиз
-|
-| https://github.com/rust-lang-ru/dictionary/issues/49[#49]
-
-| raw identifier
-| сырой идентификатор
 |
 |
 
@@ -381,15 +381,20 @@
 | когда функция возвращает тип Result или Option 
 | https://github.com/rust-lang-ru/dictionary/issues/16[#16] 
 
-| parse
-| проводить разбор
-| 
-| 
+| raw identifier
+| сырой идентификатор
+|
+|
 
 | range
 | диапазон
 | 
 | 
+
+| release
+| выпуск, релиз
+|
+| https://github.com/rust-lang-ru/dictionary/issues/49[#49]
 
 | rendering
 | отрисовка
@@ -494,16 +499,6 @@
 | Структура называется «безымянной», потому что вам нужно указать только типы, а не имена полей 
 | https://github.com/rust-lang-ru/dictionary/issues/8[#8] 
 
-| lifetime variance
-| вариативность времени жизни
-| 
-| https://github.com/rust-lang-ru/dictionary/issues/2[#2] 
-
-| variable binding
-| имя (связанное имя) / значение (связанное значение) в зависимости от контекста.
-| 
-| 
-
 | unit type
 | единичный тип
 | 
@@ -513,5 +508,10 @@
 | единичная структура
 | структура,в которой нет полей 
 | https://github.com/rust-lang-ru/dictionary/issues/7[#7] 
+
+| variable binding
+| имя (связанное имя) / значение (связанное значение) в зависимости от контекста.
+| 
+| 
 
 |===
