@@ -436,6 +436,11 @@
 | 
 | 
 
+| tier
+| уровень поддержки
+|
+| https://github.com/rust-lang-ru/dictionary/issues/68
+
 .2+| trait
 | типаж
 | 
