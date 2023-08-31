@@ -332,9 +332,9 @@
 | https://github.com/rust-lang-ru/dictionary/issues/9[#9]
 
 | operator
-| операция
+| оператор
 | 
-| 
+| https://github.com/rust-lang-ru/dictionary/issues/70[#70]
 
 | ownership
 | владение, владение ресурсом, право владения
@@ -432,9 +432,9 @@
 | 
 
 | statement
-| оператор
+| инстукция
 | 
-| 
+| https://github.com/rust-lang-ru/dictionary/issues/70[#70]
 
 | tier
 | уровень поддержки
