@@ -432,7 +432,7 @@
 | 
 
 | statement
-| инстукция
+| инструкция
 | 
 | https://github.com/rust-lang-ru/dictionary/issues/70[#70]
 
